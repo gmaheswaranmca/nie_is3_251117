@@ -12,6 +12,8 @@ This is fully ready to run.
 
 ---
 
+* npm install expo-file-system expo-battery expo-camera expo-contacts expo-location
+
 
 # ✅ **Project Structure (JSX version)**
 

@@ -1,0 +1,141 @@
+git (comp) + git hub (account + repo + repo) 
+
+java 17 + android studio 
+
+node 20 (via nvm)
+	nvm --version 
+	nvm install 20
+	nvm use 20
+
+vsc
+
+token 
+	scopes: repo, admin repo hook, delete repo 
+	
+https://github.com/gmaheswaranmca/nie_is3_251117.git
+
+theActualToken
+
+https://token@github.com/gmaheswaranmca/nie_is3_251117.git
+
+https://theActualToken@github.com/gmaheswaranmca/nie_is3_251117.git
+
+git config --global user.name "gmaheswaran"
+git config --global user.email "gmaheswaran@gmail.com"
+
+what we have done with git and github? 
+- git hub repo created with 
+	readme file and of type public.
+- cloned repo using visual studio code 
+	where we used token to authenticate
+- opened the cloned dir in vsc 
+- changed the content of the readme file 
+- we updated the changes to git 
+	using add command (+ symbol under the changes category)
+	then commited along with message 
+	
+	if first time, the git is used in the computer 
+	we have to setup global config of user name and email
+- we pushed the local repo to github 
+	using sync command 
+		sync cmd == pull + push 
+		
+		
+		
+C:\
+	/react_native
+		/app...
+		/app...
+		
+npx expo start --tunnel 
+
+https://github.com/gmaheswaranmca/nie_is3_251117
+
+npx create-expo-app CalcApp --template blank
+cd CalcApp 
+code .
+npx expo start --tunnel 
+
+npx expo start 
+
+
+let / const = to define local vars
+var = to define global vars 
+
+9750592159
+
+C:\react_native>
+	npx create-expo-app LearnComp --template blank
+	
+Healthcare Management System
+	patient management {name, age, disease}
+Human Resource Management System 
+	employee {name, job_title, salary}
+Bank Management System 
+	account {name, number, balance}
+Cab Management System 
+	vehicle {make, type, number, capacity} 
+Airline Reservation System
+	flight {airline_name, number, source, destination,
+		capacity, ticket_price}
+
+npm install expo-location expo-contacts expo-battery
+
+--------------------------------------------------
+
+RDBMS = Relational Database Management System 
+SQL = Structured Query Language
+Examples: Sqlite, MySQL, Oracle, SQL Server, Posgres
+SQL 
+	- DDL : create table, alter table, drop table 
+	- DML : insert, update, delete, select
+	- TCL : begin transaction, commit, rollback 
+	- DCL : grant, revoke 
+
+node ORM : sequelize 
+	ORM = Object Relational Mapping 
+	
+backend app :
+	Web Services : APIs
+		using REST APIs 
+			== http based web services 
+			
+node + express js
+	express js = web dev framework / lib 
+		e2e web app == old school 
+		backend app == modern school 
+			= APIs to manage our product of ecom app 
+			base url = server 
+				ip addr + port number 
+				https://render.com.ecomapp
+				http://localhost:3000
+			create product /products POST 
+			read all 	   /products GET 
+			read by id 	   /products/101	GET 
+			update product /products/101    PUT 
+			delete product /products/101    DELETE
+			
+			CRUD ops 
+node JS + express JS + sequlize + Sqlite 
+JS		+ 	Web API fw + ORM fw + RDBMS 
+
+Thunder Client in VSC == API Client for testing the apis 
+OR Postman 
+
+product {id, name, description, stock, price}
+	->
+flight {id, number, source, destination, price}
+Take the copy of the ProductServer app dir 
+as FlightServer app and 
+open Flight Server in vsc 
+
+Find And Replace (Ctrl + H) 
+	Enable `Match Case` ie Aa 
+	Find: Product | Replace: Flight
+	Find: product | Replace: flight 
+Change 
+	name of the database 
+	change column definitions wrt flight table
+	change sample products as flights
+Run the app 
+Check in the thunder client 

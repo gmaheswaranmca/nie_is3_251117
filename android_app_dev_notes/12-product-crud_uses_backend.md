@@ -14,9 +14,9 @@ Below is **complete, clean, production-ready beginner code** for a **React Nativ
 * Refer: https://docs.expo.dev/router/installation/#quick-start
 
 ```sh
-npx create-expo-app ProductApp--template blank
+npx create-expo-app ProductClient--template blank
 
-cd ProductApp
+cd ProductClient
 
 # for dependencies required
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
